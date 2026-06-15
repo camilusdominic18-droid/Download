@@ -1,3 +1,31 @@
+let totalRepayment, installmentAmount, interestRate;
+
+function calculateLoan() {
+  const amount = parseFloat(document.getElementById('amount').value);
+  const paydays = parseInt(document.getElementById('paydays').value);
+
+  switch(paydays) {
+    case 1: interestRate = 0.20; break;
+    case 2: interestRate = 0.30; break;
+    case 3: interestRate = 0.40; break;
+    case 4: interestRate = 0.50; break;
+    default: interestRate = 0;
+  }
+
+  if (isNaN(amount) || isNaN(paydays) || interestRate === 0) {
+    document.getElementById('result').innerText = "Please fill in all fields.";
+    return;
+  }
+
+  totalRepayment = amount + (amount * interestRate);
+  installmentAmount = totalRepayment / paydays;
+
+  document.getElementById('result').innerHTML =
+    `Paydays: ${paydays}<br>` +
+    `Interest Rate: ${(interestRate*100).toFixed(0)}%<br>` +
+    `Total Repayment: PGK ${totalRepayment.toFixed(2)}<br>` +
+    `Installment Amount: PGK ${installmentAmount.toFixed(2)} per payday`;
+}
 <input type="text" id="clientName" placeholder="Enter client name">
 <input type="email" id="clientEmail" placeholder="Enter client email">
 <input type="text" id="clientPhone" placeholder="Enter client phone">
