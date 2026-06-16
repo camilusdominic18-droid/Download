@@ -391,4 +391,43 @@ Repayment Schedule:
 Payday 1: PGK 650.00
 Payday 2: PGK 650.00
 Add repayment schedule to PDF quote
+document.getElementById("downloadBtn").addEventListener("click", function() {
+  const { jsPDF } = window.jspdf;
+  const doc = new jsPDF();
+
+  // Title
+  doc.setFontSize(16);
+  doc.text("MOLE MINI FINANCE Loan Quote", 10, 20);
+
+  // Client details
+  doc.setFontSize(12);
+  doc.text("Client Name: " + document.getElementById("clientName").value, 10, 40);
+  doc.text("Client Email: " + document.getElementById("clientEmail").value, 10, 50);
+  doc.text("Client Phone: " + document.getElementById("clientPhone").value, 10, 60);
+
+  // Loan summary
+  doc.text("Loan Amount (PGK): " + loanAmount.toFixed(2), 10, 80);
+  doc.text("Paydays: " + paydays, 10, 90);
+  doc.text("Interest Rate: 30%", 10, 100);
+  doc.text("Total Repayment: PGK " + totalRepayment.toFixed(2), 10, 110);
+  doc.text("Installment Amount: PGK " + installmentAmount.toFixed(2), 10, 120);
+
+  // Repayment Schedule Table
+  doc.text("Repayment Schedule:", 10, 140);
+
+  // Draw table headers
+  doc.setFontSize(11);
+  doc.text("Payday", 10, 150);
+  doc.text("Installment Amount (PGK)", 60, 150);
+
+  let startY = 160;
+  for (let i = 1; i <= paydays; i++) {
+    doc.text(i.toString(), 10, startY);
+    doc.text("PGK " + installmentAmount.toFixed(2), 60, startY);
+    startY += 10;
+  }
+
+  // Save PDF
+  doc.save("LoanQuote.pdf");
+});
 
