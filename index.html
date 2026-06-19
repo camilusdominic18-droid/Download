@@ -889,3 +889,35 @@ If you have any questions, please reply to this email or contact our office.
 Best regards,  
 MOLE FINANCE Team  
 "Helping Hand is a Caring Hand"
+## 📧 EmailJS Integration
+
+The MOLE FINANCE Loan Calculator uses [EmailJS](https://www.emailjs.com) to send loan quotes directly to client emails.
+
+### 🔎 Prerequisites
+- Create a free EmailJS account.
+- Connect an email service (e.g., Gmail, Outlook).
+- Create a new email template with placeholders.
+
+### 🪜 Setup Steps
+1. **Initialize EmailJS**
+   - Add the EmailJS script in `index.html`:
+     ```html
+     <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+     <script>
+       (function(){
+         emailjs.init("YOUR_PUBLIC_KEY");
+       })();
+     </script>
+     ```
+
+2. **Configure Template**
+   - In EmailJS dashboard, create a template with these placeholders:
+     - `client_name`
+     - `client_email`
+     - `client_phone`
+     - `loan_amount`
+     - `paydays`
+     - `repayment`
+     - `schedule`
+
+   **Sample Template Body:**
