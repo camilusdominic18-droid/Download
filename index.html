@@ -837,3 +837,32 @@ Add repayment schedule table to loan calculator
   })();
 </script>
 <button onclick="sendEmail()">Send Quote</button>
+function sendEmail() {
+  if (!latestData) {
+    alert("Please calculate loan first.");
+    return;
+  }
+
+  // Build repayment schedule text
+  let scheduleText = "Repayment Schedule:\n";
+  latestData.scheduleData.forEach(row => {
+    scheduleText += `Payday ${row.payday}: PGK ${row.repayment} | Remaining: PGK ${row.balance}\n`;
+  });
+
+  const templateParams = {
+    client_name: latestData.name,
+    client_email: latestData.email,
+    client_phone: latestData.phone,
+    loan_amount: latestData.amount,
+    paydays: latestData.paydays,
+    repayment: latestData.repayment,
+    schedule: scheduleText
+  };
+
+  emailjs.send("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", templateParams)
+    .then(function(response) {
+       alert("Loan quote sent successfully!");
+    }, function(error) {
+       alert("Failed to send email. Please try again.");
+    });
+}
