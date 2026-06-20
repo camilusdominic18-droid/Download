@@ -1290,3 +1290,80 @@ function downloadPDF() {
 
 </body>
 </html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>MOLE FINANCE Loan Calculator</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 20px; }
+    header { text-align: center; margin-bottom: 20px; }
+    .logo { height: 80px; }
+    h1 { color: gold; }
+    button { padding: 10px 20px; margin-top: 20px; }
+  </style>
+</head>
+<body>
+
+  <!-- Logo in Web UI -->
+  <header>
+    <img src="assets/logo.png" alt="MOLE FINANCE Logo" class="logo">
+    <h1>MOLE FINANCE Loan Calculator</h1>
+  </header>
+
+  <!-- Calculator UI (simplified for example) -->
+  <button onclick="downloadPDF()">Download PDF</button>
+
+  <script>
+    function downloadPDF() {
+      const { jsPDF } = window.jspdf;
+      const doc = new jsPDF();
+
+      // Load letterhead image dynamically
+      const img = new Image();
+      img.src = "assets/letterhead.png";
+      img.onload = function() {
+        // Add letterhead banner
+        doc.addImage(img, "PNG", 10, 10, 190, 40);
+
+        // Title
+        doc.setFontSize(14);
+        doc.text("Loan Quote", 105, 60, { align: "center" });
+
+        // Example client details
+        doc.setFontSize(12);
+        doc.text("Client Name: John Doe", 20, 80);
+        doc.text("Loan Amount: K10,000", 20, 90);
+        doc.text("Interest Rate: 10%", 20, 100);
+        doc.text("Term: 12 months", 20, 110);
+
+        // Repayment Schedule Table
+        const startY = 130;
+        doc.setFontSize(12);
+        doc.text("Repayment Schedule:", 20, startY);
+
+        // Table headers
+        doc.setFontSize(11);
+        doc.text("Month", 20, startY + 15);
+        doc.text("Payment (K)", 60, startY + 15);
+        doc.text("Balance (K)", 120, startY + 15);
+
+        // Example rows
+        let balance = 10000;
+        const monthlyPayment = 879; // Example calculation
+        for (let i = 1; i <= 12; i++) {
+          balance -= monthlyPayment;
+          doc.text(i.toString(), 20, startY + 15 + i * 10);
+          doc.text(monthlyPayment.toString(), 60, startY + 15 + i * 10);
+          doc.text(balance > 0 ? balance.toString() : "0", 120, startY + 15 + i * 10);
+        }
+
+        // Save PDF
+        doc.save("LoanQuote.pdf");
+      };
+    }
+  </script>
+
+</body>
+</html>
