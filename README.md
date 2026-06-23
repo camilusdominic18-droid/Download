@@ -345,3 +345,50 @@ git push origin feature/your-feature-name
 👉 Next step: Once you commit this file, your repo will be **fully professional** with README, LICENSE, and CONTRIBUTING in place.  
 
 Would you like me to also draft a **ROADMAP.md file** (detailed checklist of upcoming features and milestones) so your repo shows clear future plans?
+# MOLE MINI FINANCE Roadmap
+
+This roadmap outlines planned features, improvements, and milestones for the MOLE MINI FINANCE project.  
+It helps contributors and users understand the direction of development.
+
+---
+
+## ✅ Completed
+- Loan calculator hosted on GitHub Pages
+- Excel database template with formulas
+- Dashboard mockup design guide
+- README.md with badges, branding, and demo link
+- LICENSE.md (MIT License)
+- CONTRIBUTING.md guidelines
+
+---
+
+## 🚧 In Progress
+- Build and commit `MOLE_FINANCE_Database.xlsx` under `/templates/`
+- Add Dashboard screenshot (`dashboard.png`) to README
+- Expand Excel dashboard with slicers and pivot tables
+- Improve branding with gold highlights and logo integration
+
+---
+
+## 📅 Upcoming Features
+- CSV → Excel automated import workflow
+- Employer compliance reporting (summary sheets for HR/Payroll)
+- Dark mode toggle for GitHub Pages calculator
+- Mobile responsiveness improvements
+- Custom domain setup for GitHub Pages site
+- EmailJS integration for sending loan quotes via email
+- Enhanced dashboard with overdue loan alerts
+
+---
+
+## 🎯 Long-Term Goals
+- Full client management system (web + Excel integration)
+- Multi‑user officer access with role permissions
+- Cloud storage integration (OneDrive/Google Drive)
+- Advanced analytics dashboard (loan trends, repayment ratios)
+- Community support portal for clients
+
+---
+
+## 🤝 How to Contribute
+See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines on how to help build these features.
