@@ -840,3 +840,9 @@ git push origin vX.Y.Z
 👉 Once you commit this, your repo will have **full lifecycle documentation** — from contribution and support to security, changelog, and release management.  
 
 Would you like me to also prepare a **README badge for “Latest Release”** (auto‑updates to show your newest GitHub release version at the top of README.md)?
+## MOLE FINANCE Loan Calculator
+
+[![Latest Release](https://img.shields.io/github/v/release/camilusdominic18-droid/MOLE-FINANCE?label=Latest%20Release)](https://github.com/camilusdominic18-droid/MOLE-FINANCE/releases)
+
+### Features
+- [Your important features here]
