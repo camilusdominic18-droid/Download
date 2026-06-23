@@ -592,3 +592,8 @@ If you have ideas on how to implement it (Excel formula, dashboard chart, web ca
 
 ## 📌 Additional Context
 Add any other context, screenshots, or examples here.
+blank_issues_enabled: false
+contact_links:
+  - name: Community Support
+    url: https://github.com/camilusdominic18-droid/MOLE-FINANCE/blob/main/SUPPORT.md
+    about: Please check SUPPORT.md for help before opening a new issue.
