@@ -806,3 +806,16 @@ git tag -a vX.Y.Z -m "MOLE FINANCE Loan Calculator – Release vX.Y.Z"
 
 # Push the tag to GitHub
 git push origin vX.Y.Z
+## 🚀 MOLE FINANCE Loan Calculator vX.Y.Z
+
+### 📂 Included in this Release
+- New features
+- Bug fixes
+- Documentation updates
+
+### ✅ Highlights
+- Key improvements
+- Dashboard updates
+- Community contributions
+
+*"Helping Hand is a Caring Hand"*
