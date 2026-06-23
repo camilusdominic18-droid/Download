@@ -709,3 +709,6 @@ git commit -m "Add Dashboard screenshot (dashboard.png) to templates folder"
 
 # 5. Push changes to GitHub
 git push origin main
+## 📊 Dashboard Preview
+
+![Dashboard Preview](templates/dashboard.png)
