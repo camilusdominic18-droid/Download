@@ -213,3 +213,84 @@ Client Name:
 </body>
 </html>
 index.html
+# MOLE MINI FINANCE Loan Calculator
+
+![Excel](https://img.shields.io/badge/Built%20with-Excel-217346?logo=microsoft-excel&logoColor=white)
+![GitHub Pages](https://img.shields.io/badge/Powered%20by-GitHub%20Pages-000000?logo=github&logoColor=white)
+![Finance Tools](https://img.shields.io/badge/Category-Finance%20Tools-FFD700?logo=google-analytics&logoColor=black)
+![Status](https://img.shields.io/badge/Status-Active-brightgreen)
+![License](https://img.shields.io/badge/License-MIT-blue)
+
+---
+
+## 🌟 Branding
+**MOLE MINI FINANCE — Aitape/Lumi District, Sandaun Province, Papua New Guinea**  
+*"Helping Hand is a Caring Hand"*
+
+This project provides a **loan calculator + Excel database toolkit** for officers and clients, hosted on GitHub Pages.
+
+---
+
+## 🚀 Live Demo
+Access the calculator online via GitHub Pages:  
+👉 [MOLE FINANCE Loan Calculator](https://camilusdominic18-droid.github.io/MOLE-FINANCE)
+
+---
+
+## 📂 Excel Database Template
+Download the ready‑made Excel file:  
+👉 [`templates/MOLE_FINANCE_Database.xlsx`](templates/MOLE_FINANCE_Database.xlsx)
+
+### Sheets Included:
+- **COMPANY PROFILE** – Company details and officer in charge  
+- **CLIENT MASTER** – Client personal and employment details  
+- **LOAN APPLICATION** – Loan requests, approval status, repayment terms  
+- **REPAYMENT SCHEDULE** – Installments, due dates, payment status  
+- **RISK AND COLLECTION** – Overdue loans, follow‑up actions, outcomes  
+- **LOAN CALCULATOR** – Quick repayment and installment calculations  
+- **SHEET 1 / SHEET 2** – Scratch pads for dashboards and charts  
+
+---
+
+## 📊 Dashboard Preview
+The Dashboard sheet provides at‑a‑glance insights:
+
+- Loan Distribution (Pie Chart)  
+- Repayment Performance (Column Chart)  
+- Risk & Collection (Bar Chart)  
+- Loan Calculator Trend (Line Chart)  
+- Officer Activity (Pivot Table + Column Chart)  
+
+📷 *Insert screenshot here once built in Excel*  
+Example: `![Dashboard Preview](templates/dashboard.png)`
+
+---
+
+## 🛠️ Roadmap
+- [x] Loan calculator hosted on GitHub Pages  
+- [x] Excel database template with formulas  
+- [x] Dashboard mockup design guide  
+- [ ] Add real client/loan data exports  
+- [ ] Automate CSV → Excel import workflow  
+- [ ] Expand dashboard with employer compliance reports  
+
+---
+
+## 🤝 Contributing
+Contributions are welcome!  
+- Fork the repo  
+- Create a feature branch  
+- Submit a pull request  
+
+---
+
+## 📜 License
+This project is licensed under the MIT License.  
+See [LICENSE](LICENSE) for details.
+
+---
+
+## 🙏 Acknowledgements
+- Built with **Microsoft Excel** and **GitHub Pages**  
+- Inspired by community finance needs in Papua New Guinea  
+- Special thanks to contributors and testers of MOLE MINI FINANCE
