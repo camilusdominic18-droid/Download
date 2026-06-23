@@ -392,3 +392,48 @@ It helps contributors and users understand the direction of development.
 
 ## 🤝 How to Contribute
 See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines on how to help build these features.
+# Credits – MOLE MINI FINANCE
+
+This document acknowledges the people, tools, and resources that have contributed to the MOLE MINI FINANCE project.
+
+---
+
+## 👤 Project Lead
+- **Camilus Konzie Dominic**  
+  Founder & Officer in Charge, MOLE MINI FINANCE LTD  
+  Vision: *"Helping Hand is a Caring Hand"*
+
+---
+
+## 🛠️ Tools & Technologies
+- **Microsoft Excel** – Database template, formulas, and dashboard design  
+- **GitHub Pages** – Hosting the loan calculator online  
+- **JavaScript/HTML/CSS** – Web calculator functionality  
+- **EmailJS** – Planned integration for sending loan quotes via email  
+
+---
+
+## 🤝 Contributors & Testers
+- Community testers from **Aitape/Lumi District, Sandaun Province**  
+- Early adopters providing feedback on loan calculator usability  
+- Officers assisting with dummy data entry and dashboard validation  
+
+---
+
+## 📜 Documentation
+- **README.md** – Project overview, badges, demo link, Excel template, dashboard visuals  
+- **LICENSE.md** – MIT License for open‑source compliance  
+- **CONTRIBUTING.md** – Guidelines for collaboration  
+- **ROADMAP.md** – Future plans and milestones  
+- **CREDITS.md** – Acknowledgements  
+
+---
+
+## 🙏 Special Thanks
+- Microsoft Copilot – AI assistance in drafting documentation and design guides  
+- Open‑source community for inspiration and best practices  
+- Local finance officers for their dedication to responsible lending
+
+---
+
+*"Helping Hand is a Caring Hand"*
