@@ -722,3 +722,28 @@ git tag -a v1.0.0 -m "MOLE FINANCE Loan Calculator – Initial Release"
 # Push the tag to GitHub
 git push origin v1.0.0
 git pull origin main
+## 🚀 MOLE FINANCE Loan Calculator v1.0.0
+
+### 📂 Included in this Release
+- Loan Calculator hosted on GitHub Pages
+- Dummy Excel Database (`MOLE_FINANCE_Database.xlsx`)
+- Dashboard screenshot (`dashboard.png`)
+- Complete documentation set:
+  - README.md (badges, branding, demo link, roadmap, credits)
+  - LICENSE.md (MIT License)
+  - CONTRIBUTING.md (collaboration guidelines)
+  - ROADMAP.md (future milestones)
+  - CREDITS.md (acknowledgements)
+  - SUPPORT.md (help and contact info)
+  - SECURITY.md (responsible disclosure)
+  - ISSUE Templates (bug reports + feature requests)
+  - PULL_REQUEST_TEMPLATE.md (PR checklist)
+
+### ✅ Highlights
+- Professional repo setup with badges and branding
+- GitHub Pages live demo
+- Excel database template for officers and clients
+- Dashboard visuals for loan performance insights
+- Clear roadmap for future features
+
+*"Helping Hand is a Caring Hand"*
