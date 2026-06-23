@@ -694,3 +694,18 @@ If you discover a security issue, please follow these steps:
 ## 🙏 Thank You
 We appreciate the community’s help in keeping MOLE MINI FINANCE secure.  
 *"Helping Hand is a Caring Hand"*
+# 1. Navigate to your repo folder
+cd MOLE-FINANCE
+
+# 2. Move your dashboard screenshot into the templates folder
+# (if not already there)
+mv /path/to/dashboard.png templates/dashboard.png
+
+# 3. Stage the new file
+git add templates/dashboard.png
+
+# 4. Commit the file with a clear message
+git commit -m "Add Dashboard screenshot (dashboard.png) to templates folder"
+
+# 5. Push changes to GitHub
+git push origin main
