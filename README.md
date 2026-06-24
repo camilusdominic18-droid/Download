@@ -849,3 +849,4 @@ Would you like me to also prepare a **README badge for “Latest Release”** (a
 - [Your important features here]
 cd Desktop
 git clone https://github.com/camilusdominic18-droid/MOLE-FINANCE.git
+cd MOLE-FINANCE/templates
