@@ -850,3 +850,4 @@ Would you like me to also prepare a **README badge for “Latest Release”** (a
 cd Desktop
 git clone https://github.com/camilusdominic18-droid/MOLE-FINANCE.git
 cd MOLE-FINANCE/templates
+git commit -m "Added expanded dummy Excel database with 15 clients, 10 loans, and repayment rows"
